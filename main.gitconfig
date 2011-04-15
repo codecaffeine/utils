@@ -1,0 +1,12 @@
+[user]
+	name = Matt Thomas
+	email = matt@codecaffeine.com
+[core]
+	editor = mate -wl1
+	excludesfile = /Users/mthomas/Programming/gitignore/Global/OSX.gitignore
+[difftool]
+	prompt = false
+[difftool "Kaleidoscope"]
+	cmd = ksdiff-wrapper git \"$LOCAL\" \"$REMOTE\"
+[diff]
+	tool = Kaleidoscope

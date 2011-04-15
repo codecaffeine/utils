@@ -1,0 +1,3 @@
+*.xib		binary
+*.m			diff=objc
+*.plist		diff=plconv
