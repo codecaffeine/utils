@@ -1,7 +1,6 @@
 export HISTCONTROL=ignoredups:erasedups
 export HISTSIZE=99999
 shopt -s histappend
-export PROMPT_COMMAND='history -a'
 
 alias ls='ls -lh'
 alias h='history | grep'
