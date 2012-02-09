@@ -10,3 +10,5 @@ PS1='[\u@\h \W$(__git_ps1 " (%s)")]\$ '
 
 # Colorize the Terminal
 export CLICOLOR=1;
+
+export EDITOR="/usr/local/bin/mate -w"
